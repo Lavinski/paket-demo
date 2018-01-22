@@ -1,0 +1,14 @@
+framework: auto-detect
+redirects: on
+source https://www.nuget.org/api/v2
+
+#Core
+nuget FSharp.Core
+
+#Build
+group Build
+    redirects: off
+    source https://nuget.org/api/v2
+    nuget FAKE
+    nuget FSharp.Data
+    nuget Microsoft.Web.Xdt
